@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,24 +10,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
-            <h1><a href="#">Meine Affiliate-Website</a></h1>
-            <ul>
+            <div class="logo">
+                <h1><a href="#">Affiliate Portal</a></h1>
+            </div>
+            <ul class="nav-links">
                 <li><a href="#home">Startseite</a></li>
                 <li><a href="#products">Produkte</a></li>
                 <li><a href="#about">Über uns</a></li>
+                <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Kontakt</a></li>
             </ul>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </nav>
     </header>
 
     <section class="hero" id="home">
         <div class="hero-text">
-            <h2>Finde die besten Produkte für dein Leben</h2>
-            <p>Wir testen und bewerten die Top-Produkte in verschiedenen Kategorien, damit du die besten Kaufentscheidungen treffen kannst.</p>
-            <a href="#products" class="btn">Jetzt entdecken</a>
+            <h2>Entdecke die besten Produkte für deinen Alltag</h2>
+            <p>Wir testen und bewerten die Top-Produkte, damit du die beste Wahl triffst.</p>
+            <a href="#products" class="btn">Produkte entdecken</a>
         </div>
     </section>
 
@@ -36,34 +46,74 @@
             <div class="product-card">
                 <img src="https://via.placeholder.com/300" alt="Produkt 1">
                 <h3>Produkt 1</h3>
-                <p>Kurze Beschreibung des Produkts 1.</p>
+                <p>Entdecke die Vorteile dieses Produkts und warum es unsere Empfehlung ist.</p>
                 <a href="https://affiliate-link-1.de" class="btn">Jetzt kaufen</a>
             </div>
             <div class="product-card">
                 <img src="https://via.placeholder.com/300" alt="Produkt 2">
                 <h3>Produkt 2</h3>
-                <p>Kurze Beschreibung des Produkts 2.</p>
+                <p>Dieses Produkt hat unsere Experten überzeugt. Erfahre mehr darüber.</p>
                 <a href="https://affiliate-link-2.de" class="btn">Jetzt kaufen</a>
             </div>
             <div class="product-card">
                 <img src="https://via.placeholder.com/300" alt="Produkt 3">
                 <h3>Produkt 3</h3>
-                <p>Kurze Beschreibung des Produkts 3.</p>
+                <p>Ein großartiges Produkt, das du nicht verpassen solltest.</p>
                 <a href="https://affiliate-link-3.de" class="btn">Jetzt kaufen</a>
             </div>
         </div>
     </section>
 
     <section class="about" id="about">
-        <h2>Über uns</h2>
-        <p>Wir sind eine Gruppe von Experten, die es sich zur Aufgabe gemacht haben, die besten Produkte für dich zu finden. Unsere Bewertungen basieren auf ausführlichen Tests und umfangreichen Recherchen.</p>
+        <div class="about-content">
+            <h2>Über uns</h2>
+            <p>Wir sind ein Team von Experten, die sich der Aufgabe verschrieben haben, die besten Produkte auf dem Markt zu finden. Unsere Bewertungen basieren auf fundierten Recherchen und praktischen Tests.</p>
+            <a href="#contact" class="btn">Kontakt aufnehmen</a>
+        </div>
+        <div class="about-image">
+            <img src="https://via.placeholder.com/500" alt="Über uns Bild">
+        </div>
+    </section>
+
+    <section class="blog" id="blog">
+        <h2>Unser Blog</h2>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="https://via.placeholder.com/400" alt="Blog 1">
+                <h3>Blogpost 1</h3>
+                <p>Tipps und Tricks für den Kauf von Produkten in unserer Nische.</p>
+                <a href="#" class="btn">Weiterlesen</a>
+            </div>
+            <div class="blog-card">
+                <img src="https://via.placeholder.com/400" alt="Blog 2">
+                <h3>Blogpost 2</h3>
+                <p>Unsere neuesten Entdeckungen und wie sie sich bewähren.</p>
+                <a href="#" class="btn">Weiterlesen</a>
+            </div>
+            <div class="blog-card">
+                <img src="https://via.placeholder.com/400" alt="Blog 3">
+                <h3>Blogpost 3</h3>
+                <p>So findest du das perfekte Produkt für dich.</p>
+                <a href="#" class="btn">Weiterlesen</a>
+            </div>
+        </div>
     </section>
 
     <footer id="contact">
-        <p>© 2024 Meine Affiliate-Website. Alle Rechte vorbehalten.</p>
-        <p><a href="mailto:info@meine-affiliate-website.de">Kontakt: info@meine-affiliate-website.de</a></p>
+        <div class="footer-content">
+            <h3>Kontakt</h3>
+            <p>Fragen? Anregungen? Kontaktiere uns!</p>
+            <p>Email: <a href="mailto:info@meine-affiliate-website.de">info@meine-affiliate-website.de</a></p>
+        </div>
+        <div class="footer-social">
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+        <p>&copy; 2024 Meine Affiliate-Website. Alle Rechte vorbehalten.</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
